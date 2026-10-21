@@ -1,0 +1,20 @@
+{
+  "name": "thinkific-oidc-sso",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "api/*.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "func start",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.16.5",
+    "jsonwebtoken": "^9.0.3",
+    "openid-client": "^5.7.1"
+  }
+}
